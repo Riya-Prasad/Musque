@@ -158,7 +158,7 @@ nav li a:hover {
   color: #fff;
 }
 
-.hero .container .left-side .flex p, .hero .container .left-side .flex cite {
+.hero .container .left-side .flex p {
   font-size: 1.4vw;
   font-family: 'Montserrat', sans-serif;
   color: #fff;
@@ -201,7 +201,7 @@ nav li a:hover {
 }
 
 .about .container img {
-  margin: 5em 0;
+  margin: 2em 0;
   min-height: 70%;
   object-fit: cover;
   z-index: -100;
@@ -243,6 +243,18 @@ nav li a:hover {
   color: #6b6b6b;
   font-size: 1em;
   padding-right: 10em;
+}
+
+.services .left-side .btn {
+  display: block;
+  padding: 10px 50px;
+  cursor: pointer;
+  background: transparent;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  font-weight: 400;
+  font-size: 1em;
+  margin-top: 2em;
 }
 
 .services .right-side {
@@ -524,18 +536,13 @@ nav li a:hover {
 
 .contact .container .right-side form .btn {
   display: block;
-  padding: 10px;
+  padding: 10px 50px;
   cursor: pointer;
   background: transparent;
   color: #fff;
   border: 1px solid #fff;
   font-weight: 400;
   font-size: 1em;
-}
-
-.contact .container .right-side form .btn img {
-  margin-left: 1em;
-  width: 30%;
 }
 
 @media only screen and (min-width: 768px) {
@@ -607,7 +614,7 @@ nav li a:hover {
 }
 
 @media only screen and (max-width: 780px) {
-  .hero .container .left-side p, .hero .container .left-side cite {
+  .hero .container .left-side p {
     display: none;
   }
   .team .container {

@@ -173,7 +173,7 @@ nav{
                         color: #fff;
                     }
                 }
-                p, cite{
+                p{
                     font-size: 1.4vw;
                     font-family: 'Montserrat', sans-serif;
                     color: #fff;
@@ -219,7 +219,7 @@ nav{
             }
         }
         img{
-            margin: 5em 0;
+            margin: 2em 0;
             min-height: 70%;
             object-fit: cover;
             z-index: -100;
@@ -264,6 +264,18 @@ nav{
             color: #6b6b6b;
             font-size: 1em; 
             padding-right: 10em;
+        }
+
+        .btn{
+            display: block;
+            padding: 10px 50px;
+            cursor: pointer;
+            background: transparent;
+            color: var(--primary-color);
+            border: 1px solid var(--primary-color);
+            font-weight: 400;
+            font-size: 1em;
+            margin-top: 2em;
         }
     }
 
@@ -558,18 +570,13 @@ nav{
 
                 .btn{
                     display: block;
-                    padding: 10px;
+                    padding: 10px 50px;
                     cursor: pointer;
                     background: transparent;
                     color: #fff;
                     border: 1px solid #fff;
                     font-weight: 400;
                     font-size: 1em;
-
-                    img{
-                        margin-left: 1em;
-                        width: 30%;
-                    }
                 }
             }
         }
@@ -670,7 +677,7 @@ nav{
     .hero{
         .container{
             .left-side{
-                p, cite{
+                p{
                     display: none;
                 }
             }
